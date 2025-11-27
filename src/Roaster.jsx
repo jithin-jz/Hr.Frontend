@@ -3,7 +3,7 @@ import { Coffee, Megaphone, Linkedin, Instagram, ArrowUp } from 'lucide-react';
 
 export default function Roaster() {
   const [question, setQuestion] = useState('');
-  const [language, setLanguage] = useState('malayalam');
+  const [language, setLanguage] = useState('english');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
 
