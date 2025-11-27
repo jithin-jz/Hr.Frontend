@@ -3,17 +3,17 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer className="mt-auto pt-12 text-sm font-medium text-gray-500">
-      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-        <h1 className="text-center sm:text-left">
+      <div className="flex flex-col items-center justify-center gap-4">
+        <h1 className="text-center">
           “സമയം കളയാൻ വേണ്ടി മാത്രം നിർമ്മിച്ചത്”
         </h1>
 
-        <span className="text-center sm:text-left">
+        <span className="text-center">
           Made by Jithin
         </span>
 
         {/* Social Icons */}
-        <div className="flex justify-center sm:justify-end items-center gap-6 text-lg">
+        <div className="flex justify-center items-center gap-6 text-lg">
           {/* LinkedIn - Black */}
           <a
             href="https://www.linkedin.com/in/jithin-kr"
