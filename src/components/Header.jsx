@@ -4,7 +4,8 @@ export default function Header({ language }) {
   return (
     <>
       {/* Header Pill */}
-      <div className="bg-[#FFF8E7] rounded-full px-6 py-3 md:px-10 md:py-4 flex items-center justify-center mb-8 animate-fade-in border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] relative">
+      <div className="bg-[#FFF8E7] rounded-full px-6 py-3 md:px-10 md:py-4 flex items-center justify-center gap-4 mb-8 animate-fade-in border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] relative">
+        <img src="https://img.icons8.com/bubbles/100/mad-libs.png" alt="Icon" className="w-12 h-12 md:w-14 md:h-14 -ml-2" />
         <div className="flex flex-col items-center leading-none gap-0.5 md:gap-1">
           <span className="text-xl md:text-3xl font-black text-black tracking-tighter uppercase">
             {language === 'malayalam' ? 'താൻ ചോദിച്ചു' : 'You Questioned'}
