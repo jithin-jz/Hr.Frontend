@@ -1,7 +1,7 @@
 import React from 'react';
 import { Linkedin, Copy } from 'lucide-react';
 
-export default function RoastResult({ result, language }) {
+export default function RoastResult({ result, language, question }) {
   const [copied, setCopied] = React.useState(false);
   const [displayScore, setDisplayScore] = React.useState(0);
 
@@ -33,7 +33,10 @@ export default function RoastResult({ result, language }) {
 
 I tried "The Unfiltered Candidate" and here's what happened...
 
-💀 The Roast:
+❓ The Question:
+"${question}"
+
+💀 The AI's Roast:
 "${result.roasted_answer}"
 
 📊 My Unemployability Score: ${result.unemployability_score}% 
